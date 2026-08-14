@@ -2,9 +2,30 @@
 
 **Human-centred, Evidence-led, Sustainable and Inclusive innovation assessed through People, Planet, Prosperity, Peace and Partnership.**
 
-> Working draft 0.1 · August 2026 · Project author: Eoin Potts
+> Working draft 0.2 · 14 August 2026 · Project author: Eoin Potts
 
-![AI and quantum computing working together, with humans defining the problem and making the final decision](assets/ai-quantum-hesi-5p-infographic.jpeg)
+![HESI–5P infographic about AI and quantum computing, showing that people define the problem and retain final decision-making responsibility](assets/ai-quantum-hesi-5p-infographic.jpeg)
+
+[Read the text explanation of the infographic](docs/case-studies/ai-quantum-computing.md).
+
+## At a glance
+
+| Question | Answer |
+| --- | --- |
+| **What is HESI–5P?** | A decision and evaluation framework for responsible innovation. |
+| **Who can use it?** | Communities, charities, public bodies, researchers, project teams, policymakers and developers. |
+| **What does it produce?** | A transparent record of evidence, benefits, harms, trade-offs, human responsibility and measurable outcomes. |
+| **What is its status?** | Working draft 0.2 for testing, evaluation and improvement; it is not a certification or substitute for professional advice. |
+
+## Start here
+
+- [EU AI Act practical alignment guide](docs/eu-ai-act-alignment.md)
+- [Sustainable Development Goal alignment guide](docs/sdg-alignment.md)
+- [UK SDG Delivery Plan 2026–2030](docs/uk-sdg-delivery-plan-2026-2030.md)
+- [AI + quantum-computing case study](docs/case-studies/ai-quantum-computing.md)
+- [Official reference register](REFERENCES.md)
+- [Contribution guidance](CONTRIBUTING.md)
+- [Accessibility approach](ACCESSIBILITY.md)
 
 ## Purpose
 
@@ -100,8 +121,13 @@ The case study treats quantum computing as a specialised component rather than a
 ## Repository structure
 
 ```text
-hesi-5p-innovation-model/
+-hesi-5p-innovation-model/
 ├── README.md
+├── ACCESSIBILITY.md
+├── CITATION.cff
+├── CONTRIBUTING.md
+├── LICENSE.md
+├── REFERENCES.md
 ├── assets/
 │   └── ai-quantum-hesi-5p-infographic.jpeg
 └── docs/
@@ -135,10 +161,21 @@ The UK delivery plan is a worked national-policy application of HESI–5P. It pr
 - [HESI–5P Sustainable Development Goal Alignment Guide](docs/sdg-alignment.md)
 - [United Nations Sustainable Development Goals](https://sdgs.un.org/goals)
 
+## Contributing and accessibility
+
+Evidence corrections, accessibility improvements, translations and clearly documented case studies are welcome. Please read the [contribution guidance](CONTRIBUTING.md), [reference standard](REFERENCES.md) and [accessibility approach](ACCESSIBILITY.md) before proposing a change.
+
+The project uses plain language, descriptive links, text explanations for diagrams and official sources wherever possible. Accessibility is treated as a core quality requirement.
+
 ## Status, attribution and licensing
 
-This is a concept-stage working draft for testing and refinement. A formal open-source or content licence has not yet been selected. Before public release, confirm ownership and reuse permission for every image and external contribution, then add an appropriate licence and attribution notice.
+This is a concept-stage working draft for testing and refinement. Version 0.2 adds an explicit evidence register, contribution process, accessibility statement, citation metadata and reuse terms.
+
+Except where stated otherwise, the original documentation and original visual material are licensed under [Creative Commons Attribution 4.0 International](LICENSE.md). Third-party material remains subject to its own rights and licence terms.
 
 Suggested citation:
 
-> Potts, E. (2026). *HESI–5P Innovation Model* (Working draft 0.1).
+> Potts, E. (2026). *HESI–5P Innovation Model* (Working draft 0.2). https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model
+
+Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
+
