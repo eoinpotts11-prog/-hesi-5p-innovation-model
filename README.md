@@ -23,6 +23,7 @@
 - [Sustainable Development Goal alignment guide](docs/sdg-alignment.md)
 - [UK SDG Delivery Plan 2026–2030](docs/uk-sdg-delivery-plan-2026-2030.md)
 - [AI + quantum-computing case study](docs/case-studies/ai-quantum-computing.md)
+- [Applied strategy and governance resources](#applied-strategy-and-governance-resources)
 - [Official reference register](REFERENCES.md)
 - [Contribution guidance](CONTRIBUTING.md)
 - [Accessibility approach](ACCESSIBILITY.md)
@@ -118,6 +119,15 @@ The case study treats quantum computing as a specialised component rather than a
 - sustainable communities and local planning; and
 - advanced manufacturing and materials research.
 
+## Applied strategy and governance resources
+
+These working documents illustrate how HESI–5P principles can inform infrastructure planning and responsible AI governance:
+
+- [UK Rail Infrastructure SDG Strategy (Word document, 43 KB)](resources/UK_Rail_Infrastructure_SDG_Strategy.docx) — a strategy connecting rail investment, inclusion, employment, regional development and environmental outcomes with the Sustainable Development Goals.
+- [AI Audit Agent: Human-Centred, Secure and Nature-Positive Governance Framework (PDF, 18 pages, 105 KB)](resources/AI_Audit_Agent_Nature_Positive_Framework_Eoin_Potts.pdf) — a framework connecting AI assurance and security with environmental impact, seasonal restoration and wildlife protection.
+
+Both resources are working documents authored by Eoin Potts. They are provided for discussion and development and are not official government, regulatory or legal publications.
+
 ## Repository structure
 
 ```text
@@ -130,12 +140,15 @@ The case study treats quantum computing as a specialised component rather than a
 ├── REFERENCES.md
 ├── assets/
 │   └── ai-quantum-hesi-5p-infographic.jpeg
-└── docs/
-    ├── eu-ai-act-alignment.md
-    ├── sdg-alignment.md
-    ├── uk-sdg-delivery-plan-2026-2030.md
-    └── case-studies/
-        └── ai-quantum-computing.md
+├── docs/
+│   ├── eu-ai-act-alignment.md
+│   ├── sdg-alignment.md
+│   ├── uk-sdg-delivery-plan-2026-2030.md
+│   └── case-studies/
+│       └── ai-quantum-computing.md
+└── resources/
+    ├── AI_Audit_Agent_Nature_Positive_Framework_Eoin_Potts.pdf
+    └── UK_Rail_Infrastructure_SDG_Strategy.docx
 ```
 
 ## Responsible use
@@ -178,4 +191,3 @@ Suggested citation:
 > Potts, E. (2026). *HESI–5P Innovation Model* (Working draft 0.2). https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model
 
 Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
-
