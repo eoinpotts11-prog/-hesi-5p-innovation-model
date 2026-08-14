@@ -105,6 +105,7 @@ hesi-5p-innovation-model/
 ├── assets/
 │   └── ai-quantum-hesi-5p-infographic.jpeg
 └── docs/
+    ├── sdg-alignment.md
     └── case-studies/
         └── ai-quantum-computing.md
 ```
@@ -119,7 +120,8 @@ An organisation using the model should make evidence available at a level approp
 
 The five-P structure reflects the integrated approach of the United Nations 2030 Agenda: People, Planet, Prosperity, Peace and Partnership. Alignment must be demonstrated through outcomes and evidence; mentioning a Sustainable Development Goal does not itself prove a positive contribution.
 
-See the [United Nations Sustainable Development Goals](https://sdgs.un.org/goals).
+- [HESI–5P Sustainable Development Goal Alignment Guide](docs/sdg-alignment.md)
+- [United Nations Sustainable Development Goals](https://sdgs.un.org/goals)
 
 ## Status, attribution and licensing
 
@@ -128,4 +130,3 @@ This is a concept-stage working draft for testing and refinement. A formal open-
 Suggested citation:
 
 > Potts, E. (2026). *HESI–5P Innovation Model* (Working draft 0.1).
-
