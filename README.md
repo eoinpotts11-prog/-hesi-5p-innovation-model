@@ -105,6 +105,7 @@ hesi-5p-innovation-model/
 ├── assets/
 │   └── ai-quantum-hesi-5p-infographic.jpeg
 └── docs/
+    ├── eu-ai-act-alignment.md
     ├── sdg-alignment.md
     └── case-studies/
         └── ai-quantum-computing.md
@@ -115,6 +116,13 @@ hesi-5p-innovation-model/
 HESI–5P is a working innovation and governance framework. It is not a certification, a guarantee of sustainability, or a substitute for legal, scientific, technical, clinical, equality or environmental assessment.
 
 An organisation using the model should make evidence available at a level appropriate to the decision, invite scrutiny, declare unresolved uncertainty and commission independent evaluation for high-impact work.
+
+## Relationship to the EU AI Act
+
+The EU AI Act establishes binding, role- and risk-based legal duties. HESI–5P can help organise evidence, human oversight, rights, sustainability and stakeholder review, but completing a HESI–5P assessment does not itself establish legal compliance, certification or conformity.
+
+- [HESI–5P and the EU AI Act: Practical Alignment Guide](docs/eu-ai-act-alignment.md)
+- [Official consolidated EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1689-20260727)
 
 ## Relationship to sustainable development
 
