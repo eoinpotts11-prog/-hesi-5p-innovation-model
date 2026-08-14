@@ -107,6 +107,7 @@ hesi-5p-innovation-model/
 └── docs/
     ├── eu-ai-act-alignment.md
     ├── sdg-alignment.md
+    ├── uk-sdg-delivery-plan-2026-2030.md
     └── case-studies/
         └── ai-quantum-computing.md
 ```
@@ -128,6 +129,9 @@ The EU AI Act establishes binding, role- and risk-based legal duties. HESI–5P 
 
 The five-P structure reflects the integrated approach of the United Nations 2030 Agenda: People, Planet, Prosperity, Peace and Partnership. Alignment must be demonstrated through outcomes and evidence; mentioning a Sustainable Development Goal does not itself prove a positive contribution.
 
+The UK delivery plan is a worked national-policy application of HESI–5P. It proposes shared outcomes and evidence standards alongside four-nation and local flexibility, annual reporting to Parliament and independent evaluation. It is a discussion draft, not an official UK Government publication.
+
+- [UK Sustainable Development Goals Delivery Plan 2026–2030](docs/uk-sdg-delivery-plan-2026-2030.md)
 - [HESI–5P Sustainable Development Goal Alignment Guide](docs/sdg-alignment.md)
 - [United Nations Sustainable Development Goals](https://sdgs.un.org/goals)
 
