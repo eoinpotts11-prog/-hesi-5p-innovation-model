@@ -2,7 +2,7 @@
 
 **A human-centred governance cycle for assessing, deploying, monitoring and improving AI systems over time.**
 
-> Status: working framework · August 2026
+> Working framework v0.3 · 19 August 2026
 
 ## Purpose
 
@@ -10,7 +10,7 @@ AI governance should not be treated as a one-off approval exercise. Data changes
 
 The HESI–5P Responsible AI Continuous Learning Loop therefore treats responsible innovation as a repeating cycle:
 
-**Observe → Understand → Gather and verify evidence → AI analyses → Apply the 8-Part Innovation Test → Assess the 5 Pillars → Check rights and accessibility → Human deliberation → Human decision → Deliver responsibly → Measure outcomes → Learn and adapt → Repeat**
+**Observe → Listen and understand → Gather and verify evidence → Analyse options and risks → Apply the 8-Part Innovation Test → Assess the Five Pillars → Check rights and accessibility → Human deliberation → Human decision → Deliver responsibly → Measure outcomes → Learn and adapt → Repeat**
 
 The central rule is simple:
 
@@ -22,7 +22,7 @@ The central rule is simple:
 flowchart TD
     A[1. Observe] --> B[2. Listen and understand]
     B --> C[3. Gather and verify evidence]
-    C --> D[4. AI analyses options and risks]
+    C --> D[4. Analyse options and risks - AI may assist]
     D --> E[5. Apply the 8-Part Innovation Test]
     E --> F[6. Assess the Five Pillars]
     F --> G[7. Rights, equality and accessibility check]
@@ -66,11 +66,16 @@ Check:
 - uncertainty and missing information;
 - bias and unequal coverage;
 - conflicts of interest;
-- relevant baselines and alternatives.
+- relevant baselines and alternatives; and
+- whether the exact system, model, data and deployment context being assessed are identifiable and reproducible.
 
-## 4. AI analyses options and risks
+For traceability, record the AI provider, model or system name, version or release identifier, deployment environment, relevant dataset or knowledge-base version, assessment date and assessment owner. Where a previous review exists, link or reference it so material changes can be identified.
 
-AI may help organise information, detect patterns, compare scenarios, identify possible risks and support explanation.
+## 4. Analyse options and risks — AI may assist
+
+Risk and options analysis does not require AI. It may be performed by people, technical tools, independent reviewers or a combination of methods.
+
+AI may help organise information, detect patterns, compare scenarios, identify possible risks and support explanation. When AI assists with the assessment of another AI system, its own limitations, provenance and potential conflicts should be recognised.
 
 AI output should be treated as evidence to examine, not as an accountable decision.
 
@@ -86,13 +91,15 @@ Useful partnership principles are:
 Assess whether the proposed use of AI is:
 
 1. **Accurate** — Are claims scientifically and technically supported by evidence?
-2. **Lawful** — Does the system comply with applicable law, regulation and fundamental rights?
+2. **Lawful** — Does the system comply with applicable law, regulation and fundamental rights in every relevant jurisdiction?
 3. **Ethical** — Is it fair, safe and aligned with human values? Could it cause harm or injustice?
 4. **Inclusive** — Can relevant people and communities access, participate in and benefit from it?
 5. **Sustainable** — What are the environmental, resource and lifecycle effects?
 6. **Explainable** — Can affected people understand how the system is used, its important limitations and uncertainty?
 7. **Accountable** — Who is responsible for decisions and outcomes, and how can they be challenged?
 8. **Beneficial** — Does it create real public or user benefit that outweighs risks, harms and costs?
+
+For the lawful assessment, record the relevant jurisdiction or jurisdictions, the organisation’s role in the AI supply or deployment chain, applicable laws or regulations, any relevant legal basis for data processing, and the regulatory or risk classification where one applies.
 
 The strength of evidence and safeguards should be proportionate to the potential impact of the AI system.
 
@@ -143,6 +150,7 @@ The decision record should include:
 - reasons for the decision;
 - monitoring requirements;
 - review date;
+- material-change review triggers;
 - stop or pause conditions; and
 - challenge or redress routes.
 
@@ -204,6 +212,22 @@ The loop recognises that:
 
 Continuous monitoring therefore becomes part of responsible governance rather than an optional extra.
 
+## Scheduled and event-triggered reassessment
+
+A review should happen at an agreed frequency and also when a material change occurs. Appropriate triggers can include:
+
+- a new model or model version;
+- a material change to training, reference or operational data;
+- a change of provider, hosting environment or important supplier;
+- a new purpose or significant change in how the system is used;
+- expansion to new groups, locations or jurisdictions;
+- a serious incident, complaint or unexpected outcome;
+- a significant cybersecurity vulnerability or threat change;
+- a relevant legal, regulatory or standards change; or
+- evidence that previous assumptions, safeguards or expected benefits are no longer reliable.
+
+A material-change review should determine whether the existing assessment remains valid or whether the system should be restricted, paused or reassessed before further use.
+
 ## Technology-neutral application
 
 The loop is intended to work across different AI systems and providers. It can be applied to generative AI, recruitment systems, healthcare AI, education technology, public-sector systems, environmental applications, transport, humanitarian tools, cybersecurity, autonomous systems and AI combined with quantum computing.
@@ -220,10 +244,23 @@ A technically superior calculation should still pass the HESI–5P assessment fo
 ### HESI–5P AI Review
 
 - System or project:
+- AI provider:
+- Model/system name:
+- Model/version or release identifier:
+- Deployment context/environment:
+- Relevant dataset/knowledge-base version:
+- Assessment date:
+- Assessment owner/reviewer:
+- Previous review reference:
 - Purpose and affected groups:
 - Current need or observed change:
 - Evidence and provenance:
 - Alternatives considered, including no AI:
+- Jurisdiction(s):
+- Organisation role in the AI supply/deployment chain:
+- Applicable laws/regulations:
+- Data-processing legal basis where relevant:
+- Regulatory/risk classification where relevant:
 - Accuracy assessment:
 - Lawful assessment:
 - Ethical assessment:
@@ -243,14 +280,19 @@ A technically superior calculation should still pass the HESI–5P assessment fo
 - Decision and reasons:
 - Indicators and baseline:
 - Monitoring frequency:
+- Material-change review triggers:
 - Stop or pause conditions:
 - Challenge or redress route:
 - Next review date:
 - Lessons to feed into the next cycle:
 ```
 
+## Reference basis
+
+This working framework should be used alongside the project’s [reference register](../REFERENCES.md), including current primary and official sources on human rights, equality, accessibility, AI governance, data protection, sustainable development and evaluation. Legal and regulatory requirements must be checked for the relevant jurisdiction and date of use.
+
 ## Governing principle
 
-**Observe → Understand → Evidence → AI → Test → Assess → Human Decide → Deliver → Measure → Learn → Repeat**
+**Observe → Understand → Evidence → Analyse → Test → Assess → Human Decide → Deliver → Measure → Learn → Repeat**
 
 The objective is not simply to make AI more capable. It is to ensure that innovation remains human-centred, evidence-led, sustainable, inclusive and demonstrably beneficial across **People, Planet, Prosperity, Peace and Partnership**.
