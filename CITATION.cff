@@ -4,12 +4,12 @@ title: "HESI–5P Innovation Model"
 abstract: >-
   A human-centred, evidence-led, sustainable and inclusive framework for
   assessing innovation through People, Planet, Prosperity, Peace and
-  Partnership.
+  Partnership, including a continuous learning and governance loop for AI.
 authors:
   - family-names: "Potts"
     given-names: "Eoin"
-version: "0.2"
-date-released: "2026-08-14"
+version: "0.3"
+date-released: "2026-08-19"
 license: "CC-BY-4.0"
 repository: "https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model"
 url: "https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model"
@@ -18,6 +18,7 @@ keywords:
   - "responsible AI"
   - "human-centred innovation"
   - "AI governance"
+  - "continuous learning"
   - "EU AI Act"
   - "accessibility"
   - "evaluation"
@@ -29,5 +30,5 @@ preferred-citation:
     - family-names: "Potts"
       given-names: "Eoin"
   year: 2026
-  version: "0.2"
+  version: "0.3"
   url: "https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model"
