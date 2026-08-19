@@ -2,7 +2,7 @@
 
 **Human-centred, Evidence-led, Sustainable and Inclusive innovation assessed through People, Planet, Prosperity, Peace and Partnership.**
 
-> Working draft 0.2 · 14 August 2026 · Project author: Eoin Potts
+> Working draft 0.3 · 19 August 2026 · Project author: Eoin Potts
 
 ![HESI–5P infographic about AI and quantum computing, showing that people define the problem and retain final decision-making responsibility](assets/ai-quantum-hesi-5p-infographic.jpeg)
 
@@ -15,7 +15,7 @@
 | **What is HESI–5P?** | A decision and evaluation framework for responsible innovation. |
 | **Who can use it?** | Communities, charities, public bodies, researchers, project teams, policymakers and developers. |
 | **What does it produce?** | A transparent record of evidence, benefits, harms, trade-offs, human responsibility and measurable outcomes. |
-| **What is its status?** | Working draft 0.2 for testing, evaluation and improvement; it is not a certification or substitute for professional advice. |
+| **What is its status?** | Working draft 0.3 for testing, evaluation and improvement; it is not a certification or substitute for professional advice. |
 
 ## Start here
 
@@ -81,7 +81,7 @@ flowchart TD
 6. **Measure outcomes.** Use an agreed baseline, indicators, targets and disaggregated results where appropriate.
 7. **Learn and improve.** Publish or share findings, involve affected groups and revise, pause or stop the project when evidence requires it.
 
-For AI applications, the [HESI–5P Responsible AI Continuous Learning Loop](docs/responsible-ai-loop.md) expands this pathway into a repeating 12-stage governance cycle covering evidence, AI analysis, the 8-Part Innovation Test, the Five Pillars, rights and accessibility, human deliberation, responsible delivery, outcome measurement and continuous learning.
+For AI applications, the [HESI–5P Responsible AI Continuous Learning Loop](docs/responsible-ai-loop.md) expands this pathway into a repeating 12-stage governance cycle covering traceable evidence, options and risk analysis, the 8-Part Innovation Test, the Five Pillars, rights and accessibility, human deliberation, responsible delivery, outcome measurement, scheduled review and material-change reassessment.
 
 ## Minimum assessment record
 
@@ -135,6 +135,10 @@ Both resources are working documents authored by Eoin Potts. They are provided f
 
 ```text
 -hesi-5p-innovation-model/
+├── .github/
+│   └── workflows/
+│       └── docs-quality.yml
+├── .markdownlint-cli2.jsonc
 ├── README.md
 ├── ACCESSIBILITY.md
 ├── CITATION.cff
@@ -178,6 +182,10 @@ The UK delivery plan is a worked national-policy application of HESI–5P. It pr
 - [HESI–5P Sustainable Development Goal Alignment Guide](docs/sdg-alignment.md)
 - [United Nations Sustainable Development Goals](https://sdgs.un.org/goals)
 
+## Documentation quality checks
+
+The repository runs automated Markdown and local-link checks on pushes to `main` and on pull requests. These checks support documentation quality but do not validate the substantive legal, scientific or policy claims in the framework.
+
 ## Contributing and accessibility
 
 Evidence corrections, accessibility improvements, translations and clearly documented case studies are welcome. Please read the [contribution guidance](CONTRIBUTING.md), [reference standard](REFERENCES.md) and [accessibility approach](ACCESSIBILITY.md) before proposing a change.
@@ -186,12 +194,12 @@ The project uses plain language, descriptive links, text explanations for diagra
 
 ## Status, attribution and licensing
 
-This is a concept-stage working draft for testing and refinement. Version 0.2 adds an explicit evidence register, contribution process, accessibility statement, citation metadata and reuse terms.
+This is a concept-stage working draft for testing and refinement. Version 0.3 adds the Responsible AI Continuous Learning Loop, stronger model and assessment traceability, jurisdiction and regulatory-context fields, material-change review triggers, and automated documentation-quality checks.
 
 Except where stated otherwise, the original documentation and original visual material are licensed under [Creative Commons Attribution 4.0 International](LICENSE.md). Third-party material remains subject to its own rights and licence terms.
 
 Suggested citation:
 
-> Potts, E. (2026). *HESI–5P Innovation Model* (Working draft 0.2). https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model
+> Potts, E. (2026). *HESI–5P Innovation Model* (Working draft 0.3). https://github.com/eoinpotts11-prog/-hesi-5p-innovation-model
 
 Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff).
