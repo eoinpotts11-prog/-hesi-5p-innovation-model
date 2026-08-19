@@ -19,6 +19,7 @@
 
 ## Start here
 
+- [Responsible AI continuous learning loop](docs/responsible-ai-loop.md)
 - [EU AI Act practical alignment guide](docs/eu-ai-act-alignment.md)
 - [Sustainable Development Goal alignment guide](docs/sdg-alignment.md)
 - [UK SDG Delivery Plan 2026–2030](docs/uk-sdg-delivery-plan-2026-2030.md)
@@ -79,6 +80,8 @@ flowchart TD
 5. **Record a human decision.** Name the accountable decision-maker, reasons, safeguards, conditions and route for challenge.
 6. **Measure outcomes.** Use an agreed baseline, indicators, targets and disaggregated results where appropriate.
 7. **Learn and improve.** Publish or share findings, involve affected groups and revise, pause or stop the project when evidence requires it.
+
+For AI applications, the [HESI–5P Responsible AI Continuous Learning Loop](docs/responsible-ai-loop.md) expands this pathway into a repeating 12-stage governance cycle covering evidence, AI analysis, the 8-Part Innovation Test, the Five Pillars, rights and accessibility, human deliberation, responsible delivery, outcome measurement and continuous learning.
 
 ## Minimum assessment record
 
@@ -141,6 +144,7 @@ Both resources are working documents authored by Eoin Potts. They are provided f
 ├── assets/
 │   └── ai-quantum-hesi-5p-infographic.jpeg
 ├── docs/
+│   ├── responsible-ai-loop.md
 │   ├── eu-ai-act-alignment.md
 │   ├── sdg-alignment.md
 │   ├── uk-sdg-delivery-plan-2026-2030.md
